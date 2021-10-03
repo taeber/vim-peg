@@ -1,7 +1,7 @@
 peg.vim
 =======
 
-Syntax highlighter for PEG files in VIM.
+Syntax highlighter and indenter for PEG files in VIM.
 
 Copyright © 2021 Taeber Rapczak \<taeber@rapczak.com>
 
