@@ -7,7 +7,7 @@ function! PegIndent()
 
     " Position after the left arrow
     " Example: Identifier <-
-    let pos = matchend(prev, "^[a-zA-Z_][a-zA-Z_0-9]* <-")
+    let pos = matchend(prev, "^[a-zA-Z_][a-zA-Z_0-9]* *<-")
 
     if pos > 0
         return pos-1
