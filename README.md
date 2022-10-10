@@ -3,7 +3,7 @@ peg.vim
 
 Syntax highlighter and indenter for PEG files in VIM.
 
-Copyright © 2021 Taeber Rapczak \<taeber@rapczak.com>
+Copyright © 2021-2022 Taeber Rapczak \<taeber@rapczak.com>
 
 License: [MIT](LICENSE)
 
@@ -19,10 +19,16 @@ vim -c 'syntax on' -c 'setfiletype peg' grammar.peg
 Installation
 ------------
 
-Use [pathogen](https://github.com/tpope/vim-pathogen).
+Using [Vim 8 packages](http://vimhelp.appspot.com/repeat.txt.html#packages):
 
 ```
-git -C ~/.vim/bundle/ clone https://github.com/taeber/vim-peg
+git clone https://github.com/taeber/vim-peg ~/.vim/pack/plugins/start/vim-peg
+```
+
+Using [pathogen](https://github.com/tpope/vim-pathogen):
+
+```
+git clone https://github.com/taeber/vim-peg ~/.vim/bundles/vim-peg
 ```
 
 
